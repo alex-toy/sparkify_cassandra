@@ -8,13 +8,20 @@ You need to have Python 3.6.3 installed for this project
 
 # General explanation
 
-## 1. Purpose of the project
+## 1. Principle of Cassandra
+
+When you design a Cassandra based data model, you need to take into account the following principles :
+
+    - In Cassandra, there is no JOIN, which means that you need to denormalize your tables therby creating redundancy
+    - Cassandra is fast-write
+
+## 2. Purpose of the project
 
 The purpose of the project is to build analyze data collecting on songs and user activity on a music streaming app. The analysis should enable stakeholders to understand what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.
 
 The data engineer's job is to create an Apache Cassandra database which can create queries on song play data to answer the questions. 
 
-The databes will be tested by running queries provided by the analytics team to create the results.
+The database will be tested by running queries provided by the analytics team to create the results.
 
 
 
