@@ -19,8 +19,6 @@ The databes will be tested by running queries provided by the analytics team to 
 
 ## 2. Database schema design and ETL pipeline
 
-For this project, you'll be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
-
 In this project, we will be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
 ```
@@ -55,17 +53,8 @@ Once the data has been ETLed, you are free to take full benefit from the power o
 # Project Organization 
 ----------------------
 
-    ├── README.md               <- The top-level README for users and developers using this project.
-    ├── create_tables.py        <- Python script allowing to create database, create / drop tables with appropriate schema
-    ├── etl.ipynb               <- Notebook for step by step testing
-    ├── requirements.txt        <- install psycopg2 for local use
-    ├── sql_queries.py          <- SQL queries
-    ├── test.ipynb              <- unitary tests for creation, deletion, insertion steps
-    ├── etl.py                  <- Python script allowing to create tables based on json files
-    ├── stack.yml               <- Docker container for postgres image
-    ├── data_querying.ipynb     <- Notebook for querying the star model
-    ├── data                    <- json files containing data
-
+    ├── README.md                   <- The top-level README for users and developers using this project.
+    ├── Project_Template.ipynb        <- Python script allowing to create database, create / drop tables with appropriate schema
 
 
 
