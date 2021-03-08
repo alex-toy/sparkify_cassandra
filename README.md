@@ -1,4 +1,4 @@
-# Data Engineering project 1 - Data Modelling with Cassandra
+# Data Engineering project 2 - Data Modelling with Cassandra
 
 By Alessio Rea
 
@@ -54,7 +54,7 @@ Once the data has been ETLed, you are free to take full benefit from the power o
 ----------------------
 
     ├── README.md                   <- The top-level README for users and developers using this project.
-    ├── Project_Template.ipynb        <- Python script allowing to create database, create / drop tables with appropriate schema
+    ├── Project_Template.ipynb      <- Python script allowing to create database, create / drop tables with appropriate schema
 
 
 
