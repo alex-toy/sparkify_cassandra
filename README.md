@@ -12,8 +12,8 @@ You need to have Python 3.6.3 installed for this project
 
 When you design a Cassandra based data model, you need to take into account the following principles :
 
-    - In Cassandra, there is no JOIN, which means that you need to denormalize your tables therby creating redundancy
-    - Cassandra is fast-write
+- In Cassandra, there is no JOIN, which means that you need to denormalize your tables therby creating redundancy
+- Cassandra is fast-write
 
 ## 2. Purpose of the project
 
