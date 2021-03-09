@@ -43,10 +43,3 @@ $ git clone <this_project>
 $ cd <this_project>
 ```
 
-## 2. Install requirements
-
-```
-$ pip install -r requirements.txt
-```
---------
-
